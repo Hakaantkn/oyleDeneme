@@ -17,6 +17,11 @@
 }
 .navbarHeader{
     margin-left: 165px;
+    cursor: pointer;
+    transition: transform 0.9s ease;
+}
+.navbarHeader:hover{
+    transform: scale(1.2);
 }
 .headerSvg{
     margin-right: 165px;
@@ -51,6 +56,11 @@
     width: 194px;
     height: 32px;
     margin-top: 32px;
+    transition: transform 0.9s ease;
+    cursor: pointer;
+}
+.exploreBtn:hover{
+    transform: scale(1.1);
 }
 .container2{
     width: 1110px;
@@ -74,6 +84,13 @@
     margin-left: 165px;
     margin-top: 64px;
 }
+.container3 img{
+    transition: transform 0.9s ease;
+    cursor: pointer;
+}
+.container3 img:hover{
+    transform: scale(1.1);
+}
 .container4{
     margin-left: 165px;
     margin-top: 48px;
@@ -90,6 +107,13 @@
     display: flex;
     margin-top: 24px;
     gap: 80px;
+}
+.con4Inside img{
+    transition: transform 0.9s ease;
+    cursor: pointer;
+}
+.con4Inside img:hover{
+    transform: scale(1.1);
 }
 .container5{
     width: 1110px;
@@ -123,10 +147,22 @@
 }
 .con5Svg{
     margin-top: 40px;
+    transition: transform 0.9s ease;
+    cursor: pointer;
+}
+.con5Svg:hover{
+    transform: scale(1.1);
 }
 .container6{
     margin-left: 165px;
     margin-top: 56px;
+}
+.container6 img{
+    transition: transform 0.9s ease;
+    cursor: pointer;
+}
+.container6 img:hover{
+    transform: scale(1.1);
 }
 .container6 p{
     font-size: 20px;
@@ -160,6 +196,13 @@
     display: flex;
     margin-top: 24px;
     gap: 24px;
+}
+.con7Box{
+    transition: transform 0.9s ease;
+    cursor: pointer;
+}
+.con7Box:hover{
+    transform: scale(1.1);
 }
 .con7Box p{
     color: #807E7E;
